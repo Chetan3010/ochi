@@ -5,18 +5,21 @@ import { GoArrowUpRight } from "react-icons/go";
 const LandingPage = () => {
   return (
    <div className="w-full h-screen bg-zinc-900 pt-1">
-    <div className='textstructure mt-52 px-14'>
+    <div className='textstructure mt-36 px-14'>
         {["we create","eye-opening","presentations"].map((item,index)=>{
             return (
                 <div key={index} className='masker'>
-                    <div className="m-fit flex items-center">
-                        <h1 className="flex items-center h-full uppercase text-[9vw] leading-[7vw] font-['Founders_Grotesk_X-Condensed'] font-bold">{item}</h1>
+                    <div className="m-fit flex items-end overflow-hidden">
+                        { index === 1 && (
+                            <div className="mr-[1vw] w-[8vw] h-[5.7vw] -top-[1.2vw] rounded-md relative bg-green-500"></div>
+                        )}
+                        <h1 className="pt-[2vw] -mb-[1vw] flex items-center h-full uppercase text-[9vw] leading-[.75] font-['Founders_Grotesk_X_Condensed'] font-bold">{item}</h1>
                     </div>
                 </div>
             )
         })}
     </div>
-    <div className='border-t-[1px] border-zinc-800 mt-20 flex justify-between items-center py-4 px-14'>
+    <div className='border-t-[1px] border-zinc-800 mt-16 flex justify-between items-center py-4 px-14'>
         {["For public and private companies","From the first pitch to IPO"].map((item,index)=>{
             return <p key={index} className='text-md font-light tracking-light leading-none'>{item}</p>
         })}
