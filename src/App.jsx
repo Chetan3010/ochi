@@ -5,6 +5,7 @@ import LandingPage from './Components/LandingPage'
 import Marquee from './Components/Marquee'
 import About from './Components/About'
 import Eyes from './Components/Eyes'
+import { Feature } from './Components/Feature'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Marquee />
       <About />
       <Eyes />
+      <Feature />
     </div>
   )
 }
