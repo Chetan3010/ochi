@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
-export const Feature = () => {
+const Feature = () => {
   return (
     <div className="w-full py-20">
       <div className="w-full px-14 pb-14 border-b-2 border-zinc-700">
@@ -42,3 +42,5 @@ export const Feature = () => {
     </div>
   );
 };
+
+export default Feature

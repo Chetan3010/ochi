@@ -5,8 +5,9 @@ import LandingPage from './Components/LandingPage'
 import Marquee from './Components/Marquee'
 import About from './Components/About'
 import Eyes from './Components/Eyes'
-import { Feature } from './Components/Feature'
+import Feature from './Components/Feature'
 import Cards from './Components/Cards'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Eyes />
       <Feature />
       <Cards />
+      <Footer />
     </div>
   )
 }
