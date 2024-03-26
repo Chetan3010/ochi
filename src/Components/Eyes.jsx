@@ -18,8 +18,8 @@ const Eyes = () => {
     })
   return (
     <div className="eyes w-full h-screen overflow-hidden ">
-      <div className="relative w-full h-full bg-cover bg-center bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')]">
-        <div className="flex justify-between  absolute w-1/3 h-70 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
+      <div data-scroll data-scroll-speed="-.7" className="relative w-full h-full bg-cover bg-center bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')]">
+        <div className="flex justify-between absolute w-1/3 h-70 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
           <div className="w-[14vw] h-[14vw] flex justify-center items-center rounded-full bg-zinc-100">
             <div className="w-2/3 h-2/3 relative rounded-full bg-zinc-900">
               <div style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`}} className="line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-5">
