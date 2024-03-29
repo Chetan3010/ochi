@@ -6,7 +6,7 @@ import { GoArrowUpRight } from "react-icons/go";
 const LandingPage = () => {
     
   return (
-   <div data-scroll data-scroll-section data-scroll-speed=".1" className="w-full h-screen bg-zinc-900 pt-1">
+   <div data-scroll data-scroll-section data-scroll-speed="-.3" className="w-full h-screen bg-zinc-900 pt-1">
     <div className='textstructure mt-36 px-14'>
         {["we create","eye-opening","presentations"].map((item,index)=>{
             return (
